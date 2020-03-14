@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import Home from './screens/home';
 import { AppLoading } from 'expo'; 
 import * as Font from 'expo-font';
-import Navigator from './routes/homeStack';
+import Navigator from './routes/drawer';
 
 const getFonts = () => {
     return Font.loadAsync({
