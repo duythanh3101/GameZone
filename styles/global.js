@@ -20,11 +20,16 @@ export const globalStyles = StyleSheet.create({
         padding: 10,
         fontSize: 18,
         borderRadius: 6,
-        margin: 10
     },
     buttonStyle: {
         backgroundColor: 'red',
         width: 100,
+    },
+    errorText: {
+        color: 'crimson',
+        fontWeight: 'bold',
+        marginTop: 6,
+        marginBottom: 10,
     }
 });
 
